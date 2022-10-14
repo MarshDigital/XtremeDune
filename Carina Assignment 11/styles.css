@@ -1,0 +1,354 @@
+* {
+  box-sizing: border-box;
+  padding-right: 1px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "franklin gothic";
+}
+
+#main-section {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.nav-section {
+  margin: 0 40px 20px 0px;
+  width: 130px;
+}
+
+.logo {
+  height: 120px;
+  padding-top: 20px;
+}
+
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-weight: bolder;
+}
+
+li {
+  border: 1px solid white;
+  background-color: black;
+  padding: 20px;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+h1 {
+  font-size: 26pt;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+p {
+  font-size: 10pt;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.gallery-img {
+  width: 23%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  display: inline-table;
+}
+
+img {
+  height: 160px;
+}
+
+.gallery-img1 {
+  max-height: 200px;
+  min-height: 200px;
+  background: rgb(232, 232, 233);
+  padding-top: 60px;
+}
+
+footer {
+  margin-top: 20px;
+  height: 70px;
+  background: rgb(224, 215, 215);
+  padding-top: 20px;
+}
+
+/* Lets RIP Page */
+
+/* LR Main Section  */
+
+#main-section-l {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-areas:
+    "nav hero "
+    "footer footer";
+}
+
+#main-section-l h2 {
+  font-size: 40px;
+}
+
+#main-section-l p {
+  font-family: "Gill Sans";
+}
+
+.logo {
+  position: fixed;
+  height: 100px;
+}
+
+nav {
+  position: fixed;
+  width: 18vw;
+  margin-top: 120px;
+}
+
+/* Highlights  */
+
+.highlights {
+  background-color: rgb(0, 0, 0);
+  min-height: 600px;
+  padding: 20px 0;
+}
+
+.highlights li {
+  font-size: 14pt;
+  font-weight: 500;
+  text-align: left;
+  list-style: check;
+  padding: 10px;
+  margin: 10px;
+  background-color: inherit;
+}
+
+.highlights ul {
+  border: 1px solid white;
+  background-color: none;
+  color: white;
+  width: 60%;
+  float: right;
+  margin-right: 20px;
+}
+
+.highlights h1 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.highlights h2 {
+  float: left;
+  font-size: 30px;
+  color: white;
+  padding: 100px 20px 0 100px;
+}
+
+/* Full Description  */
+.full-description {
+  clear: both;
+  min-height: 500px;
+  padding-top: 40px;
+}
+
+.full-description p {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 18px;
+}
+
+.full-description h2 {
+  font-size: 34px;
+  color: rgb(0, 0, 0);
+}
+
+.full-description {
+  border-left: 1px solid black;
+}
+/* Includes /  */
+
+.includes {
+  background-color: black;
+  height: 600px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.includes h2 {
+  color: white;
+}
+
+.includes img {
+  float: left;
+  margin: 10px;
+  height: 300px;
+}
+
+.includes li {
+  font-size: 14pt;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+}
+
+ol {
+  border: 1px solid white;
+  background-color: none;
+  color: white;
+  font-weight: 300;
+  margin-left: 30px;
+}
+
+.important-info {
+  text-transform: capitalize;
+  border-left: 1px solid black;
+}
+
+.important-info p {
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 20pt;
+}
+
+.not-suitable {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 20px;
+  color: white;
+  background: red;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.not-suitable h3 {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.not-suitable p {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+footer {
+  grid-area: footer;
+}
+
+/* About Page CSS  */
+#main-section-a {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+#main-section-a {
+  height: 900px;
+}
+
+.page-name {
+  margin-bottom: 50px;
+  background: black;
+  color: white;
+  height: 400px;
+  padding-top: 30px;
+}
+
+.a-content {
+  background: rgb(225, 225, 223);
+}
+
+.page-name {
+  padding-top: 30px;
+}
+
+.page-name h1 {
+  font-size: 70px;
+  padding-bottom: 20px;
+}
+
+.Guide {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background: white;
+}
+
+.Guide p {
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 18px;
+}
+
+.Guide h2 {
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 40px;
+}
+
+.img-container {
+  padding-top: 50px;
+}
+
+.img-a {
+  width: 280px;
+  height: auto;
+}
+
+/* Contact CSS  */
+
+#main-section-c {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.contact-details {
+  height: 600px;
+}
+
+.contact-details h1 {
+  padding-top: 50px;
+  font-size: 70px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.section-c2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 80px;
+}
+
+form {
+  font-size: 7px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  border: 2px solid orange;
+  width: 70%;
+
+  padding-bottom: 40px;
+}
+
+label {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  display: block;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.cbtn {
+  display: block;
+}
